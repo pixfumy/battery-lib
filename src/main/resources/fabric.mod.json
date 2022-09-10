@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "batterylib",
+  "version": "${version}",
+  "name": "Battery Lib",
+  "description": "General server-side optimization mod.",
+  "authors": [
+    "pixfumy"
+  ],
+  "contact": {
+    "homepage": "https://github.com/pixfumy"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/batterylib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.pixfumy.batterylib.BatteryLib"
+    ]
+  },
+  "mixins": [
+    "batterylib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.7.10"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

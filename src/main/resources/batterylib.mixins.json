@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.pixfumy.batterylib.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LongObjectStorageMixin",
+    "ServerChunkProviderMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
